@@ -1,0 +1,133 @@
+@font-face {
+	font-family: BebasN;
+	src: url('fonts/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+	font-family: BebasN;
+	src: url('fonts/BebasNeue-Bold.ttf');
+	font-weight: bold;
+}
+
+body {
+	font-family: BebasN;
+	background-color: rgb(240,240,240);
+}
+
+.main {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.profile-header {
+	display: flex;
+	margin-top: 50px;
+	margin-left: 250px;
+	margin-right: 250px;
+	border: 1px solid rgb(200,200,200);
+	flex-wrap: wrap;
+	background-image: url('images/bg.jpg');
+}
+
+.profile-education {
+	display: flex;
+	margin-top: 10px;
+	border: 1px solid rgb(200,200,200);
+	margin-top: 50px;
+	margin-left: 250px;
+	margin-right: 250px;
+	background-image: url('images/bg.jpg');
+}
+
+.heading-title {
+	margin-top: 20px;
+	font-family: BebasN;
+	margin-left: 30px;
+	margin-bottom: 0px;
+	color: green;
+	font-size: 50px;
+}
+
+.heading-break {
+	margin-left: 30px;
+	border: 2px solid purple;
+}
+
+.ed-history {
+	margin-left: 15px;
+}
+
+.ed-title {
+	margin-left: 30px;
+	color: purple;
+	font-size: 30px;
+	margin-bottom: -20px;
+}
+
+.ed-time {
+	margin-left: 30px;
+	color: rgb(70,70,70);
+	font-size: 20px;
+}
+
+.ed-orgs {
+	margin-left: 100px;
+}
+
+.prev-works {
+	margin-left: 100px;
+}
+
+.profile-contacts {
+	display: flex;
+	margin-top: 10	px;
+	border: 1px solid rgb(200,200,200);
+	margin-top: 50px;
+	margin-left: 250px;
+	margin-right: 250px;
+	background-image: url('images/bg.jpg');
+}
+
+.profile-name {
+	margin-top: 110px;
+	margin-left: 50px;
+	color: purple;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.profile-title {
+	margin-top: 133px;
+	margin-left: 10px;
+	color: green;
+	font-size: 40px;
+}
+
+.profile-break {
+	width: 100%;
+	margin-left: 100px;
+	margin-right: 100px;
+	border: 1px solid rgb(200,200,200);
+}
+
+.profile-desc {
+	font-family: Arial;
+	margin-left: 150px;
+	font-size: 20px;
+	color: rgb(70,70,70);
+	margin-right: 150px;
+}
+
+.profile-image {
+	width: 250px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: 150px;
+	border-radius: 50%;
+	border: 3px solid purple;
+}
+
+.flex-break {
+	width: 20%;
+}
